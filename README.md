@@ -1,17 +1,17 @@
 # AutoUpdater
-Chrome extension for updating informatics uploads automatically
+Расширение для Google Chrome, которое автоматически обновляет отправленные в Информатикс файлы
 
-## ⬇️ Installation
-1. Download code
-   - Click green button **Code** and **Download ZIP**
-   - Unzip downloaded archive
-2. Preparing settings
-   - Open `chrome://extensions` and enable **Developer Mode**
-3. Load extension
-   - Click **Load unpacked** and select extension folder
+## ⬇️ Установка
+1. Загрузка кода
+   - Нажмите на зеленую кнопку **Code**, потом **Download ZIP**
+   - Распокуй скаченный архив
+2. Подготовка настроек
+   - Откройте `chrome://extensions` и включите **Режим разработчика**
+3. Загрузка расширения
+   - Нажмите на кнопку **Загрузить распакованное расширение** и выберете распакованную папку
 
-## 🖖 Usage
-You can just open any **Informatics** problem and **AutoUpdater** will do everything specially for you
+## 🖖 Использование
+Ты можешь просто открыть любую задачу на **Информатиксе** и **AutoUpdater** сделает всё за тебя
 
-## 🚧 Contribute
-All contributions are welcome
+## 🚧 Сотрудничество
+Любая помощь приветствуется!
