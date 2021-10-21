@@ -1,13 +1,14 @@
 {
     "name": "AutoUpdater",
     "description": "Update informatics uploads automatically",
-    "version": "1.0",
+    "version": "1.0.3",
     "manifest_version": 3,
     "content_scripts": [
         {
-            "matches": ["https://informatics.msk.ru/mod/statements/*"],
+            "matches": ["https://informatics.msk.ru/*"],
             "run_at": "document_idle",
-            "js": ["content.js"]
+            "js": ["content.js"],
+            "css": ["styles.css"]
         }
     ]
 }

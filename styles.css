@@ -1,0 +1,206 @@
+body, #contentWrapper {
+    background: #202E3A !important;
+    color: rgb(236, 235, 235) !important;
+}
+
+#wrapper {
+    border-color: #253341 !important;
+}
+
+#page, #page-header, .navbar, #sidebar-btn, .section .activity .actions, #nav-drawer {
+    background: #15202B !important;
+}
+
+.navbar .navbar-inner, 
+.navbar .brand,
+.navbar .btn-navbar,
+.spotlight-v2, .block,
+.navbar .dropdown-menu,
+#region-main,
+.card
+{
+    background: #253341 !important;
+}
+
+.block, .dropdown-menu {
+    border-color: #253341 !important;
+}
+
+.navbar #search button[type="submit"] {
+    background: #253341 url(/theme/image.php/lambda/theme/1599218028/bg/icon-search) no-repeat center center !important;
+}
+
+.shadow1
+{
+    -webkit-box-shadow: 0 10px 6px -6px #1a222b !important;
+    -moz-box-shadow: 0 10px 6px -6px #1a222b !important;
+    box-shadow: 0 10px 6px -6px #1a222b !important;
+}
+
+.footerlinks, .usertour {
+    background: #1d2833 !important;
+}
+
+h1,
+h1 * {
+    color: white !important;
+}
+
+a, #loggedin-user .usertext {
+    color: rgb(90, 126, 150) !important;
+}
+
+#page-footer .footnote,
+#page-footer .footnote a, #page-footer .footnote a {
+    color: #555 !important;
+}
+
+#page-footer .footnote a, #page-footer .footnote a:visited {
+    color: rgb(56, 56, 56) !important;
+}
+
+button a, .btn a, button a:visited, .btn a:visited, a.btn, a.btn:visited, #page-footer .content a.btn, #page-footer .footerlinks a.btn {
+    color: #fff !important;
+}
+
+.content h3.sectionname {
+    background: #324150 !important;
+    border-color: #324150 #324150 #324150 white !important;
+}
+
+.navbar .nav>li>a:focus,
+.navbar .nav>li>a:hover, 
+.navbar .nav>.active>a, 
+.navbar .nav>.active>a:hover, 
+.navbar .nav>.active>a:focus, 
+.navbar .nav li.dropdown.open>.dropdown-toggle, 
+.navbar .nav li.dropdown.active>.dropdown-toggle, 
+.navbar .nav li.dropdown.open.active>.dropdown-toggle,
+.btn-primary {
+    background: #324150 !important;
+}
+
+.moodle-actionmenu[data-enhanced].show .menu {
+    background: #324150 !important;
+    border-color: #253341 !important;
+}
+
+tbody>tr:nth-child(odd)>td {
+    background: #253341 !important;
+    border-color: #1d2833 !important;
+}
+
+td, pre {
+    color: #fff !important;
+}
+
+span.token.operator {
+    background: hsla(0,0%,100%,.02) !important;
+}
+
+td .nav-item > a{
+    color: rgb(236, 235, 235) !important;
+    background: rgb(32, 46, 58) !important;
+}
+
+tbody>tr:nth-child(even)>td {
+    border-color: #253341 !important;
+}
+
+tbody tr:hover>td {
+    background: #1d2833 !important;
+}
+
+.breadcrumb>li {
+    text-shadow: none !important;
+}
+
+.course-content ul li.section.main {
+    background: none !important;
+    border-bottom: 2px solid #555 !important;
+}
+
+.course-content ul li.section.main {
+    border: auto !important;
+}
+
+#sidebar .block-region,
+#nav-drawer .drawer-top,
+#nav-drawer .header-container,
+#nav-drawer .body-container,
+#nav-drawer .body-container div,
+#nav-drawer .list-group a,
+.popover-region-container,
+.popover-region-footer-container {
+    background: rgb(37, 51, 65) !important;
+    border-color: #1d2833 !important;
+}
+
+textarea, 
+input[type="text"], 
+input[type="password"], 
+input[type="datetime"], 
+input[type="datetime-local"], 
+input[type="date"], 
+input[type="month"], 
+input[type="time"], 
+input[type="week"], 
+input[type="number"], 
+input[type="email"], 
+input[type="url"], 
+input[type="search"], 
+input[type="tel"], 
+input[type="color"], 
+.uneditable-input {
+    background: rgb(63, 78, 94) !important;
+}
+
+#nav-drawer .btn-link:hover, #nav-drawer .btn-link:focus {
+    background: #253341 !important;
+}
+
+::-webkit-scrollbar {
+    background-color: transparent;
+    width: 5px;
+}
+
+::-webkit-scrollbar-corner {
+    display: none;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #566573;
+}
+
+.preferences-container .preference-table tr th:nth-child(even),
+.preferences-container .preference-table tr td:nth-child(even) {
+    background: #253341 !important;
+}
+
+.preferences-container .preference-table,
+.table th, .table td {
+    border-color: #253341 !important;
+}
+
+tbody tr:hover>td, tbody tr:hover>th {
+    background: #202E3A !important;
+}
+
+.hover-tooltip-container .hover-tooltip {
+    background: #384855 !important;
+}
+
+.forumpost, select {
+    background: #253341 !important;
+    border-color: #555 !important;
+}
+
+.bg-pulse-grey {
+    background-color: #555 !important;
+}
+
+.navbar .dropdown-menu>li>a:hover,
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary.disabled, .btn-primary[disabled]  {
+    background: none !important;
+    background: rgb(45 67 88) !important;
+}

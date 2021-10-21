@@ -15,3 +15,19 @@ document.getElementById('submit_button')?.addEventListener('click', () => {
 
     intervalId = setInterval(update, 50)
 })
+
+let blocks = document.querySelectorAll('body *')
+for (let i = 0; i < blocks.length; i++) {
+    let item = blocks[i]
+    if (window.getComputedStyle(item).background.includes('important')) {
+        blocks[i].style.background = 'var(--dark)'
+    }
+    if (window.getComputedStyle(item).color.includes('important')) {
+        blocks[i].style.color = 'var(--light)'
+    }
+    if (window.getComputedStyle(item).border.includes('important')) {
+        blocks[i].style.border = 'var(--light)'
+    }
+    blocks[i].classList.remove('bg-light', 'bg-dark', 'bg-gray', 'bg-white', 'navbar-light', 'btn-light')
+    console.log(i)
+}
