@@ -46,7 +46,20 @@ h1 * {
     color: white !important;
 }
 
-a, #loggedin-user .usertext {
+.pagination a.page-link {
+    color: #fff !important;
+}
+
+aside#block-region-side-pre > section:nth-of-type(2) li {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.problem-statement > .sample-tests pre.content {
+    background-color: #253341;
+}
+
+a:not(li.page-item:nth-child(2) > a), #loggedin-user .usertext, li .media {
     color: rgb(90, 126, 150) !important;
 }
 
@@ -130,6 +143,7 @@ tbody tr:hover>td {
 #nav-drawer .body-container,
 #nav-drawer .body-container div,
 #nav-drawer .list-group a,
+#nav-drawer .list-group li > div,
 .popover-region-container,
 .popover-region-footer-container {
     background: rgb(37, 51, 65) !important;
