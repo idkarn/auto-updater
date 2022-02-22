@@ -11,8 +11,15 @@ body, #contentWrapper {
     border-color: #253341 !important;
 }
 
-#page, #page-header, .navbar, #sidebar-btn, .section .activity .actions, #nav-drawer {
+#page, #page-header, #sidebar-btn, .section .activity .actions, #nav-drawer {
     background: #15202B !important;
+}
+
+.navbar {
+    background: rgba(21, 32, 43, 0.2) !important;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
 }
 
 .navbar .navbar-inner, 

@@ -34,3 +34,19 @@ nav.appendChild(newNav)
 
 // remove drawer toggle button
 document.querySelector('nav:first-of-type > :first-child').remove()
+
+
+// remove notification button
+document.querySelector('#page-wrapper > nav > ul.nav.navbar-nav.ml-auto > li:nth-child(2)').remove()
+document.querySelector('#page-wrapper > nav > ul.nav.navbar-nav.ml-auto > li.d-none.d-lg-block').remove()
+
+// remove second name
+let nodeText = document.querySelector('#action-menu-toggle-1 > span > span.usertext.mr-1')
+nodeText.textContent = nodeText.textContent.slice(0, nodeText.textContent.indexOf(' '))
+document.querySelector('.usertext').classList.remove('mr-1')
+document.querySelector('.usertext').style.marginRight = '0.5rem'
+
+// secret meme
+let userNameLink = document.querySelector('#page-footer > div > div.logininfo > a:nth-child(1)')
+userNameLink.removeAttribute('href')
+userNameLink.addEventListener('click', () => fetch('https://meme-api.herokuapp.com/gimme').then(data => data.json()).then(json => { let elem = document.createElement('img'); elem.src = json.url; document.querySelector('footer').appendChild(elem) }))
