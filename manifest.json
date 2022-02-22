@@ -7,7 +7,7 @@
         {
             "matches": ["https://informatics.msk.ru/*"],
             "run_at": "document_idle",
-            "js": ["content.js"],
+            "js": ["content.js", "dark.js"],
             "css": ["styles.css"]
         }
     ]

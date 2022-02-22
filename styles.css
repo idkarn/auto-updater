@@ -1,3 +1,7 @@
+body {
+    margin-left: 80px !important;
+}
+
 body, #contentWrapper {
     background: #202E3A !important;
     color: rgb(236, 235, 235) !important;
@@ -111,6 +115,10 @@ span.token.operator {
     background: hsla(0,0%,100%,.02) !important;
 }
 
+span.token.number {
+    color: #ef0888;
+}
+
 td .nav-item > a{
     color: rgb(236, 235, 235) !important;
     background: rgb(32, 46, 58) !important;
@@ -150,6 +158,30 @@ tbody tr:hover>td {
     border-color: #1d2833 !important;
 }
 
+#nav-drawer {
+    width: auto;
+}
+
+#nav-drawer::-webkit-scrollbar {
+    display: none;
+}
+
+#nav-drawer .media-body {
+    display: none;
+}
+
+#nav-drawer:hover .media-body {
+    display: block;
+}
+
+#nav-drawer .icon {
+    margin-right: 0;
+}
+
+#nav-drawer:hover .icon {
+    margin-right: .5rem;
+}
+
 textarea, 
 input[type="text"], 
 input[type="password"], 
@@ -166,6 +198,7 @@ input[type="search"],
 input[type="tel"], 
 input[type="color"], 
 .uneditable-input {
+    color: rgb(236, 235, 235) !important;
     background: rgb(63, 78, 94) !important;
 }
 
